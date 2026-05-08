@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AM&S Trade Import Export</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#f5f7fb;
+color:#111;
+overflow-x:hidden;
+}
+
+header{
+background:#08254a;
+padding:15px 6%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:999;
+}
+
+.logo{
+color:white;
+font-size:32px;
+font-weight:700;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:500;
+}
+
+.hero{
+height:90vh;
+background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.6)),
+url('YOUR-HERO-IMAGE.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+padding:0 6%;
+color:white;
+}
+
+.hero-content{
+max-width:700px;
+}
+
+.hero h1{
+font-size:70px;
+line-height:1.1;
+}
+
+.hero p{
+margin-top:20px;
+line-height:1.9;
+font-size:18px;
+color:#ddd;
+}
+
+.buttons{
+margin-top:30px;
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.btn{
+padding:14px 28px;
+border-radius:40px;
+text-decoration:none;
+font-weight:600;
+}
+
+.gold{
+background:#d4af37;
+color:black;
+}
+
+.dark{
+border:1px solid white;
+color:white;
+}
+
+section{
+padding:80px 6%;
+}
+
+.title{
+font-size:42px;
+margin-bottom:20px;
+color:#08254a;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.card img{
+width:100%;
+height:240px;
+object-fit:cover;
+}
+
+.card-content{
+padding:25px;
+}
+
+.card-content h3{
+margin-bottom:10px;
+color:#08254a;
+}
+
+.card-content p{
+line-height:1.8;
+color:#555;
+}
+
+.stats{
+background:#08254a;
+color:white;
+padding:50px 6%;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+text-align:center;
+}
+
+.stats h2{
+font-size:45px;
+color:#d4af37;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:300px;
+object-fit:cover;
+border-radius:18px;
+}
+
+.contact{
+background:white;
+padding:50px;
+border-radius:25px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.contact p{
+margin:15px 0;
+font-size:18px;
+}
+
+footer{
+background:#08254a;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:60px;
+}
+
+.float{
+position:fixed;
+right:20px;
+width:60px;
+height:60px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:28px;
+color:white;
+text-decoration:none;
+}
+
+.whatsapp{
+bottom:90px;
+background:#25D366;
+}
+
+.telegram{
+bottom:20px;
+background:#229ED9;
+}
+
+@media(max-width:900px){
+
+.hero h1{
+font-size:45px;
+}
+
+nav{
+display:none;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">AM&S</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>AM&S Trade Import Export</h1>
+
+<p>
+Trusted international and national trade company providing logistics,
+import-export solutions, warehouse operations, and professional business partnerships.
+</p>
+
+<div class="buttons">
+
+<a href="https://wa.me/917006352087" class="btn gold">
+WhatsApp
+</a>
+
+<a href="https://t.me/7006352087" class="btn dark">
+Telegram
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="services">
+
+<h2 class="title">Our Services</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="warehouse.jpg">
+<div class="card-content">
+<h3>Warehouse Operations</h3>
+<p>
+Professional warehouse storage and export handling operations.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="truck.jpg">
+<div class="card-content">
+<h3>Logistics & Transport</h3>
+<p>
+Reliable transport and delivery services across national and international markets.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="packing.jpg">
+<div class="card-content">
+<h3>Fruit Packaging</h3>
+<p>
+Export-quality fruit grading, packaging, and cold-chain processing.
+</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<div class="stats">
+
+<div>
+<h2>100+</h2>
+<p>Happy Clients</p>
+</div>
+
+<div>
+<h2>500+</h2>
+<p>Products</p>
+</div>
+
+<div>
+<h2>25+</h2>
+<p>Countries</p>
+</div>
+
+<div>
+<h2>4+</h2>
+<p>Years Experience</p>
+</div>
+
+</div>
+
+<section id="gallery">
+
+<h2 class="title">Company Gallery</h2>
+
+<div class="gallery">
+
+<img src="gallery1.jpg">
+<img src="gallery2.jpg">
+<img src="gallery3.jpg">
+<img src="gallery4.jpg">
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<div class="contact">
+
+<h2 class="title">Contact Us</h2>
+
+<p><strong>Phone:</strong> 7006352087</p>
+
+<p><strong>Email:</strong> amas@gmail.com</p>
+
+<p><strong>Telegram:</strong> @7006352087</p>
+
+<div class="buttons" style="justify-content:center;">
+
+<a href="https://wa.me/917006352087" class="btn gold">
+Chat on WhatsApp
+</a>
+
+<a href="https://t.me/7006352087" class="btn gold">
+Open Telegram
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<a class="float whatsapp" href="https://wa.me/917006352087">
+☎
+</a>
+
+<a class="float telegram" href="https://t.me/7006352087">
+✈
+</a>
+
+<footer>
+© 2026 AM&S Trade Import Export. All Rights Reserved.
+</footer>
+
+</body>
+</html>
